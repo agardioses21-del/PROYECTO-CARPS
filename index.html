@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Pesqueras - Economía Circular en Chanduy</title>
+    <!-- Tailwind CSS para un diseño moderno y rápido -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- NAV BAR -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-anchor text-cyan-600 text-2xl"></i>
+                    <span class="font-bold text-xl tracking-tight text-slate-900">Proyecto Chanduy</span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-medium text-slate-600">
+                    <a href="#problema" class="hover:text-cyan-600 transition">El Problema</a>
+                    <a href="#circuito" class="hover:text-cyan-600 transition">Operación</a>
+                    <a href="#abastecimiento" class="hover:text-cyan-600 transition">Acopio</a>
+                    <a href="#impacto" class="hover:text-cyan-600 transition">Impacto Social</a>
+                    <a href="#alianza" class="hover:text-cyan-600 transition">Alianza</a>
+                </div>
+                <button class="bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-lg font-medium transition shadow-sm">
+                    Contacto
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero-bg text-white py-32 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 text-xs uppercase tracking-wider font-semibold px-3 py-1 rounded-full">Propuesta Provincial · Santa Elena</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold mt-4 mb-6 leading-tight">
+                Redes pesqueras: de pasivo ambiental a <span class="text-cyan-400">economía circular</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-200 max-w-2xl mx-auto mb-10">
+                Un circuito de acopio, transformación y exportación desde Chanduy. De la playa al mundo por una pesca responsable y próspera.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md mx-auto">
+                <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/10">
+                    <div class="text-3xl font-bold text-cyan-300">11.0 - 15.5 TM</div>
+                    <div class="text-xs uppercase text-slate-300 tracking-wider mt-1">Recolección Mensual Regular</div>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/10">
+                    <div class="text-3xl font-bold text-emerald-400">$9.610,00</div>
+                    <div class="text-xs uppercase text-slate-300 tracking-wider mt-1">Retorno Líquido Piloto</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- EL PROBLEMA -->
+    <section id="problema" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">La península enfrenta un daño costero crítico</h2>
+            <p class="text-slate-600 mt-4">Tres pasivos ambientales urgentes en Santa Elena que demandan una decisión operativa inmediata.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
+                <div class="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center mb-6 text-xl">
+                    <i class="fa-solid fa-fire"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Quema a cielo abierto</h3>
+                <p class="text-slate-600">Generación constante de gases tóxicos, grave riesgo sanitario para las poblaciones locales y deterioro directo del atractivo turístico.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center mb-6 text-xl">
+                    <i class="fa-solid fa-trowel-bricks"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Enterramiento en arena</h3>
+                <p class="text-slate-600">Fragmentación y acumulación invisible de microplásticos que provocan la degradación severa de los suelos marinos costeros.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6 text-xl">
+                    <i class="fa-solid fa-fish"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Pesca fantasma</h3>
+                <p class="text-slate-600">Redes abandonadas en el mar que continúan atrapando y matando especies de forma indefinida sin ningún control.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- EL CIRCUITO OPERATIVO -->
+    <section id="circuito" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold sm:text-4xl">Operación en Chanduy</h2>
+                <p class="text-slate-400 mt-4">Transformamos redes usadas en materia prima exportable de alto valor industrial.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10">
+                    <div class="text-cyan-400 font-bold text-lg mb-2">01. Recepción</div>
+                    <p class="text-sm text-slate-300">Pesaje técnico y trazabilidad estricta por cooperativa proveedora.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10">
+                    <div class="text-cyan-400 font-bold text-lg mb-2">02. Desmantelamiento</div>
+                    <p class="text-sm text-slate-300">Segregación de subproductos: plomos, metales, cabos de polipropileno y boyas.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10">
+                    <div class="text-cyan-400 font-bold text-lg mb-2">03. Lavado</div>
+                    <p class="text-sm text-slate-300">Limpieza profunda mediante lavado hidropresivo industrial a 3500 PSI.</p>
+                </div>
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10">
+                    <div class="text-cyan-400 font-bold text-lg mb-2">04. Secado y Despacho</div>
+                    <p class="text-sm text-slate-300">Secado natural al sol, compactación y despacho en bultos estandarizados de 60 kg.</p>
+                </div>
+            </div>
+            <div class="mt-12 bg-white/5 p-6 rounded-xl border border-white/10 max-w-3xl mx-auto text-center text-sm text-slate-300">
+                <i class="fa-solid fa-circle-info text-cyan-400 mr-2"></i> Operación eficiente optimizada por campañas de 10 a 12 días al mes, sin horas extras ni nuevas contrataciones fijas.
+            </div>
+        </div>
+    </section>
+
+    <!-- ABASTECIMIENTO PROVINCIAL -->
+    <section id="abastecimiento" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">Escalamiento Provincial por Ejes</h2>
+            <p class="text-slate-600 mt-4">Un modelo logístico ordenado para abarcar los principales puntos pesqueros de la península.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm">
+                <div class="flex items-center space-x-3 mb-4">
+                    <span class="w-8 h-8 rounded-full bg-cyan-600 text-white font-bold flex items-center justify-center text-sm">1</span>
+                    <h3 class="font-bold text-lg text-slate-900">Eje Sur</h3>
+                </div>
+                <p class="text-sm text-slate-600 mb-4">Anconcito y Chanduy</p>
+                <div class="border-t border-slate-100 pt-4 flex justify-between items-center">
+                    <span class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Material:</span>
+                    <span class="text-sm font-medium text-slate-900">Nylon de alta tenacidad</span>
+                </div>
+                <div class="flex justify-between items-center mt-2">
+                    <span class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Volumen:</span>
+                    <span class="text-sm font-bold text-cyan-600">6,0 - 7,5 TM/mes</span>
+                </div>
+            </div>
+            <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm">
+                <div class="flex items-center space-x-3 mb-4">
+                    <span class="w-8 h-8 rounded-full bg-cyan-600 text-white font-bold flex items-center justify-center text-sm">2</span>
+                    <h3 class="font-bold text-lg text-slate-900">Eje Centro</h3>
+                </div>
+                <p class="text-sm text-slate-600 mb-4">Santa Rosa, La Caleta y La Carioca</p>
+                <div class="border-t border-slate-100 pt-4 flex justify-between items-center">
+                    <span class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Material:</span>
+                    <span class="text-sm font-medium text-slate-900">Pellets industriales</span>
+                </div>
+                <div class="flex justify-between items-center mt-2">
+                    <span class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Volumen:</span>
+                    <span class="text-sm font-bold text-cyan-600">3,5 - 4,5 TM/mes</span>
+                </div>
+            </div>
+            <div class="border border-slate-200 rounded-2xl p-6 bg-white shadow-sm">
+                <div class="flex items-center space-x-3 mb-4">
+                    <span class="w-8 h-8 rounded-full bg-cyan-600 text-white font-bold flex items-center justify-center text-sm">3</span>
+                    <h3 class="font-bold text-lg text-slate-900">Eje Norte</h3>
+                </div>
+                <p class="text-sm text-slate-600 mb-4">Ruta del Spondylus</p>
+                <div class="border-t border-slate-100 pt-4 flex justify-between items-center">
+                    <span class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Material:</span>
+                    <span class="text-sm font-medium text-slate-900">Madera plástica</span>
+                </div>
+                <div class="flex justify-between items-center mt-2">
+                    <span class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Volumen:</span>
+                    <span class="text-sm font-bold text-cyan-600">1,5 - 3,5 TM/mes</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMPACTO SOCIAL Y REINVERSIÓN -->
+    <section id="impacto" class="py-20 bg-slate-100 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">El excedente vuelve al mar y a las comunidades</h2>
+                <p class="text-slate-600 mt-4">La valorización integral asegura el aprovechamiento completo de materiales y genera impacto social positivo.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+                <div class="space-y-6">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0"><i class="fa-solid fa-venus"></i></div>
+                        <div>
+                            <h4 class="text-lg font-bold text-slate-900">Participación Comunitaria con Enfoque de Género</h4>
+                            <p class="text-slate-600 text-sm mt-1">Coordinación directa con las cooperativas pesqueras para incorporar a mujeres de las familias de los pescadores en las fases de lavado y secado, bajo incentivos económicos por jornada o lote.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0"><i class="fa-solid fa-money-bill-trend-up"></i></div>
+                        <div>
+                            <h4 class="text-lg font-bold text-slate-900">Fondos Administrados por PRODUSE EP</h4>
+                            <p class="text-slate-600 text-sm mt-1">Los ingresos derivados de la venta comercial se reinvierten localmente en la entrega de incentivos, kits de seguridad marina, artes de pesca tecnificadas y mejoras de infraestructura en muelles.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0"><i class="fa-solid fa-ship"></i></div>
+                        <div>
+                            <h4 class="text-lg font-bold text-slate-900">Beneficios Directos a la Navegación</h4>
+                            <p class="text-slate-600 text-sm mt-1">Reducción inmediata de redes fantasma flotantes en las zonas de faena, minimizando sustancialmente el riesgo de rotura de hélices y accidentes operativos para los pescadores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-cyan-900 rounded-2xl text-white p-8 flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs uppercase font-bold text-cyan-400 tracking-widest">Viabilidad Económica</span>
+                        <h4 class="text-2xl font-bold mt-2 mb-4">Eficiencia Financiera Demostrada</h4>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                            El proyecto cuenta con un CAPEX único de $4.700,00 para la fase piloto y un costo OPEX en planta sumamente bajo de apenas $0,04 por kg, aprovechando la infraestructura pública existente (Cero costo de tierra).
+                        </p>
+                    </div>
+                    <div class="border-t border-white/10 pt-4 text-xs text-slate-400 italic">
+                        Incluso ante una caída del 50% en el precio internacional de referencia ($0,32/kg), el circuito se mantiene financieramente superior y autosustentable.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ALIANZA TRIPARTITA -->
+    <section id="alianza" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div class="max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">Una alianza tripartita que reduce riesgos</h2>
+            <p class="text-slate-600 mt-4">Cada actor clave cubre una capacidad crítica e indispensable dentro del circuito operativo.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl border border-slate-200">
+                <div class="text-xl font-bold text-slate-900 mb-2">Prefectura</div>
+                <p class="text-sm text-slate-600">Aporta la infraestructura del Laboratorio de Ostras en Chanduy y el personal técnico especializado.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-200">
+                <div class="text-xl font-bold text-slate-900 mb-2">PRODUSE EP</div>
+                <p class="text-sm text-slate-600">Encargada de la facturación, el cobro y la administración transparente de todos los recursos del proyecto.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl border border-slate-200">
+                <div class="text-xl font-bold text-slate-900 mb-2">NetPlus / Bureo Inc.</div>
+                <p class="text-sm text-slate-600">Compra contractual formalizada de la materia prima limpia para asegurar su exportación internacional.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-8 border-t border-white/5 text-center text-xs">
+        <p>&copy; 2026 Prefectura de Santa Elena · PRODUSE EP · Proyecto Economía Circular Chanduy</p>
+    </footer>
+
+</body>
+</html>
